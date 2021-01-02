@@ -8,7 +8,6 @@ header = {'cookie': secrets.cookie}
 
 passwords = requests.get('https://adventofcode.com/2020/day/2/input', headers = header)
 # %%
-print(type(passwords.text))
 # %%
 password_list = passwords.text.split('\n')
 print(password_list)
