@@ -43,3 +43,6 @@ for policy, password in password_list_split:
         matches += 1
 
 print(matches)
+# %%
+
+# %%
